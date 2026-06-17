@@ -255,6 +255,15 @@ function App() {
               </article>
             ))}
           </div>
+          <div className="more-projects-cta">
+            <a className="button secondary" href="https://github.com/fayras?tab=repositories">
+              <span className="button-copy">
+                <span>Weitere Projekte auf GitHub</span>
+                <span>Kleinere Tools, Experimente und ältere Projekte.</span>
+              </span>
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+          </div>
         </section>
 
         <section className="section split-section about-section" aria-labelledby="about-title">

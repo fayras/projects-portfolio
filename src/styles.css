@@ -455,6 +455,31 @@ h3 {
   gap: 26px;
 }
 
+.more-projects-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.more-projects-cta .button {
+  min-height: 56px;
+  padding: 16px 30px;
+  font-size: 1.3rem;
+}
+
+.button-copy {
+  display: grid;
+  gap: 2px;
+  text-align: left;
+}
+
+.button-copy span:last-child {
+  color: #6b6178;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
 .project-card {
   overflow: hidden;
   transition:
@@ -717,6 +742,7 @@ footer {
   }
 
   .hero-actions .button,
+  .more-projects-cta .button,
   .contact-actions .button {
     width: 100%;
   }
