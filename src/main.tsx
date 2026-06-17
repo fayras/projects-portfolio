@@ -26,11 +26,13 @@ const contactEmailCodes = [
   111, 109,
 ];
 
+const assetPath = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
 const projects = [
   {
     title: 'Simple New File',
     type: 'Visual Studio Code Extension',
-    image: '/assets/preview.gif',
+    image: assetPath('assets/preview.gif'),
     summary:
       'Eine produktive VSCode-Erweiterung, mit der Entwickler Dateien und Ordner direkt ueber die Command Palette anlegen koennen.',
     stack: ['TypeScript', 'Node.js', 'VSCode API'],
@@ -46,7 +48,7 @@ const projects = [
   {
     title: 'Break It',
     type: 'C++ Desktop Spiel',
-    image: '/assets/break-it-small.png',
+    image: assetPath('assets/break-it-small.png'),
     summary:
       'Ein in der Freizeit entwickelter Breakout-Klon mit SFML, Levelsystem, Sound, Partikeleffekten und freischaltbaren Skills.',
     stack: ['C++17', 'SFML', 'CMake', 'Game Design'],
@@ -62,7 +64,7 @@ const projects = [
   {
     title: 'Braitenberg Vehicle Simulation',
     type: 'Browserbasierte 2D-Simulation',
-    image: '/assets/bbv_preview.PNG',
+    image: assetPath('assets/bbv_preview.PNG'),
     summary:
       'Eine interaktive Simulationsumgebung fuer autonomes Verhalten, in der Fahrzeuge ueber Sensoren, Motoren und Reizquellen konfiguriert werden.',
     stack: ['TypeScript', 'Phaser', 'React', 'MobX'],

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "GelPen";
-  src: url("/assets/GelPen.ttf") format("truetype");
+  src: url("/projects-portfolio/assets/GelPen.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -282,7 +282,7 @@ h3 {
   z-index: 2;
   width: clamp(70px, 13vw, 93px);
   aspect-ratio: 356 / 432;
-  background: url("/assets/cat_hello.svg") center / contain no-repeat;
+  background: url("/projects-portfolio/assets/cat_hello.svg") center / contain no-repeat;
   filter: drop-shadow(4px 0 0 #fff)
   drop-shadow(-4px 0 0 #fff)
   drop-shadow(0 4px 0 #fff)
@@ -367,7 +367,7 @@ h3 {
   z-index: 0;
   width: clamp(120px, 26vw, 300px);
   aspect-ratio: 236 / 172;
-  background: url("/assets/cat.svg") center / contain no-repeat;
+  background: url("/projects-portfolio/assets/cat.svg") center / contain no-repeat;
   opacity: 0.7;
   pointer-events: none;
   transform: rotate(10deg);
@@ -396,7 +396,7 @@ h3 {
   z-index: 0;
   width: clamp(120px, 24vw, 350px);
   aspect-ratio: 236 / 172;
-  background: url("/assets/cat_code.svg") center / contain no-repeat;
+  background: url("/projects-portfolio/assets/cat_code.svg") center / contain no-repeat;
   opacity: 0.8;
   pointer-events: none;
   transform: rotate(-8deg);
